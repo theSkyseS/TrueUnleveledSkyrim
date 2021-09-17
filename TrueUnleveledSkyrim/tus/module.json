@@ -1,0 +1,12 @@
+{
+  "id": "tus",
+  "name": "True Unleveled Skyrim",
+  "author": "DanielUA",
+  "version": "1.1.0",
+  "released": "9/5/2017",
+  "updated": "5/24/2018",
+  "description": "",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}

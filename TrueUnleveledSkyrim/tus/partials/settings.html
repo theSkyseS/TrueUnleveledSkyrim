@@ -1,0 +1,40 @@
+<h2>True Unleveled Skyrim</h2>
+
+<div>
+    <input type="checkbox" ng-model="settings.tus.unlevelZones" />
+    <span>Unlevel Encounter Zones</span>
+    <br>
+    <input type="checkbox" ng-model="settings.tus.unlevelLVLI" />
+    <span>Unlevel Item Lists</span>
+    <br>
+    <input type="text" ng-model="settings.tus.highestLevelLVLI" size="1" />
+    <span>Highest Item Level</span>
+    <br>
+    <span>27 means Glass+ will be removed from game (recommended)</span>
+    <br>
+    <span>0 means no items will be removed from leveled lists (not recommended)</span>
+    <br>
+    <input type="checkbox" ng-model="settings.tus.unlevelNPCs" />
+    <span>Unlevel NPCs</span>
+    <br>
+    <input type="checkbox" ng-model="settings.tus.removeOffsets" />
+    <span>Remove NPC offsets (health, stamina, magicka)</span>
+    <br>
+    <input type="checkbox" ng-model="settings.tus.distributePerks" />
+    <span>Distribute perks to NPCs</span>
+    <br>
+    <input type="checkbox" ng-model="settings.tus.removeOldPerks" />
+    <span>Remove old perks from NPCs</span>
+    <br>
+    <input type="text" ng-model="settings.tus.magickaRegenModifier" size="1" />
+    <span>Modifier for NPCs magicka regen. 1.0 is default</span>
+    <br>
+    <input type="text" ng-model="settings.tus.includedESPs" />
+    <span>(Mod authors only)</span>
+    <br>
+    <span>Leave empty to patch everything, otherwise enter names of the only plugins to patch like this:</span>
+    <br>
+    <span>EsmFile.esm,EspFile.esp,EspFile2.esp</span>
+    <br>
+
+</div>
